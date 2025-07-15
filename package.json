@@ -1,0 +1,30 @@
+{
+  "name": "tech-aggregator",
+  "version": "1.0.0",
+  "description": "Daily tech news aggregator with Slack integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "natural": "^6.0.0",
+    "node-cron": "^3.0.0",
+    "rss-parser": "^3.13.0",
+    "string-similarity": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "tech",
+    "news",
+    "aggregator",
+    "slack"
+  ],
+  "author": "",
+  "license": "MIT"
+}

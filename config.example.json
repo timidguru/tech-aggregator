@@ -1,0 +1,36 @@
+{
+  "slack": {
+    "webhookUrl": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+  },
+  "schedule": {
+    "time": "09:00",
+    "timezone": "Asia/Seoul"
+  },
+  "sources": [
+    {
+      "name": "GeekNews",
+      "url": "http://feeds.feedburner.com/geeknews-feed",
+      "type": "rss"
+    },
+    {
+      "name": "요즘IT",
+      "url": "https://yozm.wishket.com/magazine/feed/",
+      "type": "rss"
+    },
+    {
+      "name": "카카오 기술 블로그",
+      "url": "https://tech.kakao.com/",
+      "type": "web"
+    },
+    {
+      "name": "네이버 D2",
+      "url": "https://d2.naver.com/d2.atom",
+      "type": "rss"
+    },
+    {
+      "name": "Velog",
+      "url": "https://v2.velog.io/rss",
+      "type": "rss"
+    }
+  ]
+}
